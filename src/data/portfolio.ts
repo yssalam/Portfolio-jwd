@@ -1,3 +1,8 @@
+import miniQuizImage from "@/images/projects/mini-quiz.png";
+import mosqueCmsImage from "@/images/projects/mosque-cms.png";
+import removieImage from "@/images/projects/removie.png";
+import osbImage from "@/images/projects/osb.png";
+
 export interface Project {
   id: number;
   title: string;
@@ -79,7 +84,7 @@ export const projects: Project[] = [
     date: "January 2026",
     description: "Movie searching web app using React and API.",
     technologies: ["React", "API", "Tailwind CSS"],
-    image: "src/images/projects/removie.png",
+    image: removieImage,
     url: "https://removie-tau.vercel.app/",
   },
 
@@ -91,7 +96,7 @@ export const projects: Project[] = [
     description:
       "Website e-commerce untuk kebutuhan operasional dan penjualan produk.",
     technologies: ["React", "Supabase", "Tailwind CSS"],
-    image: "src/images/projects/osb.png",
+    image: osbImage,
     url: "https://one-shine-beads.vercel.app/",
   },
 
@@ -103,7 +108,7 @@ export const projects: Project[] = [
     description:
       "Aplikasi quiz berbasis web dengan React dan integrasi REST API.",
     technologies: ["React", "REST API", "CSS"],
-    image: "src/images/projects/mini-quiz.png",
+    image: miniQuizImage,
     url: "https://mini-quiz-app-eosin.vercel.app/",
   },
   {
@@ -114,7 +119,7 @@ export const projects: Project[] = [
     description:
       "Fullstack mosque website with a CMS dashboard for managing articles, events, gallery, and mosque information.",
     technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Supabase"],
-    image: "src/images/projects/mosque-cms.png",
+    image: mosqueCmsImage,
     url: "https://mosque-website-ebon.vercel.app/",
   },
 ];
