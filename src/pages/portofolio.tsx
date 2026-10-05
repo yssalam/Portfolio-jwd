@@ -11,7 +11,7 @@ import Footer from "@/components/sections/Footer";
 
 export default function Portfolio() {
   return (
-    <main className="min-h-screen profile text-[var(--text-primary)]">
+    <main className="min-h-screen overflow-x-hidden profile text-[var(--text-primary)]">
       <Navbar />
       <Hero />
       <Stats />

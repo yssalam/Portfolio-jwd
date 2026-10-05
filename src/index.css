@@ -21,9 +21,11 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
+  overflow-x: hidden;
   margin: 0;
   min-width: 320px;
   background: var(--bg);
@@ -49,10 +51,8 @@ img {
 
 .profile {
   background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ),
+    linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)),
     var(--profile);
 
   background-size: cover;
