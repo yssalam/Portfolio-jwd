@@ -1,5 +1,6 @@
 import { ArrowDown, ArrowUpRight, MapPin } from "lucide-react";
 import { profile } from "@/data/portfolio";
+import heroImage from "@/images/profile.png";
 
 export default function Hero() {
   return (
@@ -62,7 +63,7 @@ export default function Hero() {
             <div className="relative overflow-hidden rounded-lg border border-white/[0.08] bg-[var(--surface)]">
               <div className="aspect-[4/5] bg-[#171a1d]">
                 <img
-                  src="src/images/profile.png"
+                  src={heroImage}
                   alt={profile.name}
                   className="h-full w-full object-cover grayscale"
                 />
